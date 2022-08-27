@@ -148,3 +148,21 @@ function CharacterCount() {
   return <>Character Count: {count}</>;
 }
 ```
+
+<br>
+
+## 참고문서 및 예제
+
+---
+
+<br>
+
+### 예제
+
+[TodoListWithRecoil](https://github.com/jongjin1010/State-Management/tree/main/recoil)
+
+<br>
+
+### 문서
+
+[Recoil\_공식문서](https://recoiljs.org/ko/docs/introduction/getting-started)
