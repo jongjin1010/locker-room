@@ -137,7 +137,7 @@ const charCountState = selector({
 });
 ```
 
-### <b>값 읽고 쓰기</b>
+### <b>값 읽고 쓰기!</b>
 
 우리는 useRecoilValue() 훅을 사용해서 charCountState 값을 읽을 수 있다.
 
