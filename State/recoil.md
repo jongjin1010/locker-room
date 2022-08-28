@@ -8,8 +8,6 @@ Recoil이란 React 전용 전역 상태관리 라이브러리이다.
 
 ---
 
-<br>
-
 기존의 전역 상태관리 라이브러리의 **문제**는 다음과 같다.
 
 ### Reacrt 전용 라이브러리가 아니다
@@ -27,8 +25,6 @@ Recoil이란 React 전용 전역 상태관리 라이브러리이다.
 
 ---
 
- <br>
-
 ```
 npm install recoil
 yarn add recoil
@@ -38,7 +34,6 @@ yarn add recoil
 
 ---
 
-<br>
 Recoil을 활용하기 위해서는 index.tsx의 최상위컴포넌트에서 RecoilRoot로 감싸주면 된다.
 
 ```javascript
@@ -65,8 +60,6 @@ ReactDOM.render(
 ## Atoms
 
 ---
-
-<br>
 
 ### <b>정의</b>
 
@@ -120,8 +113,6 @@ function TextInput() {
 
 ---
 
-<br>
-
 ### <b>정의</b>
 
 Selector는 상태의 변화에 일부를 나타낸다.
@@ -137,7 +128,7 @@ const charCountState = selector({
 });
 ```
 
-### <b>값 읽고 쓰기!</b>
+### <b>값 읽고 쓰기</b>
 
 우리는 useRecoilValue() 훅을 사용해서 charCountState 값을 읽을 수 있다.
 
@@ -155,13 +146,9 @@ function CharacterCount() {
 
 ---
 
-<br>
-
 ### 예제
 
 [TodoListWithRecoil](https://github.com/jongjin1010/State-Management/tree/main/recoil)
-
-<br>
 
 ### 문서
 
