@@ -24,7 +24,7 @@ HTTPS는 HTTP 프로토콜의 문제점인 암호화를 SSL(보안 소켓 계층
 
 <img src="../Image/HTTPS.png">
 
-결국 HTTP오 HTTPS의 차이는 SSL이다.
+결국 HTTP와 HTTPS의 차이는 SSL이다.
 
 SSL은 서버와 브라우저 사이에 안전하게 암호화된 연결을 만들 수 있게 도와주고
 
