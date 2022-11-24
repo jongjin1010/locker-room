@@ -120,11 +120,13 @@ const { mutate: addComment } = useMutation(onAddComment, {
 **여기서 onSuccess, onErrored는 성공과 실패 후의 작업을 말하고, onSettled는 성공, 실패 여부에 상관없이 실행되는 작업을 뜻하는데**
 
 이렇게 되면 성공이나 실패시 아까 **useQuery** 에서 선언해두었던 key를 통해 **invalidateQueries**() method를 이용하면 쿼리가 무효화되고
-_->_ **queryClient.invalidateQueries("comment")**
+_->_ `queryClient.invalidateQueries("comment")`
 
 이에 따라 새 데이터가 패칭이되며 **Optimistic UI Update** 가 구현된다.
 
 <br>
+
+React-Query를 사용하니까 코드도 확실히 깔끔해진것같다.
 
 자세한 코드는 다음의 예제에서 프로젝트 코드로 확인할수있다.
 
