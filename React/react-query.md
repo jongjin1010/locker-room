@@ -118,10 +118,6 @@ _->_ `queryClient.invalidateQueries("comment")`
 
 이에 따라 새 데이터가 패칭이되며 **Optimistic UI Update** 가 구현된다.
 
-<br>
+다음 글과 함께 읽는 것을 추천한다.
 
-React-Query를 사용하니까 코드도 확실히 깔끔해진것같다.
-
-자세한 코드는 다음의 예제에서 프로젝트 코드로 확인할수있다.
-
-https://github.com/Paper-p/Glog-Frontend/tree/main/src/components/DetailsPost
+https://roronoa-jongjin.tistory.com/5
